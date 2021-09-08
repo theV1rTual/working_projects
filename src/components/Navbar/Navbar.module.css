@@ -1,0 +1,113 @@
+.Navbar {
+    height: 46px;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1%;
+}
+
+
+.list {
+    margin-right: 100px;
+}
+
+.Navbar nav ul {
+    list-style: none;
+    margin:  0;
+    padding: 0;
+}
+
+.Navbar .Navigation {
+    display: flex;
+    margin-right: auto;
+}
+
+.Navbar .MobileNavigation {
+    display: none;
+}
+
+.Navbar nav ul li {
+    display: inline-block;
+    margin: 1.5vw; 
+}
+
+.mobileNavbar {
+    margin-top: 140%;
+    width: 172%;
+    background-color: #FFC09C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+}
+
+.mobileList {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    /* margin-top: 150%; */
+    /* margin-left: 0; */
+    /* margin-top: 500px; */
+    /* margin-left: 50%; */
+}
+
+.ManexIcon {
+    margin-right: auto;
+}
+
+.line {
+    color: black;
+}
+
+.mobileListItem {
+    color: red;
+    font-size: 25px;
+    line-height: 28.75px;
+    font-weight: 700;
+    margin-left: 0;
+}
+
+.mobileLink1 {
+    color: black;
+}
+
+li {
+    color: black
+}
+
+@media (max-width: 990px) {
+    .Navbar .Navigation {
+        display: none;
+    }
+
+    .Navbar .MobileNavigation {
+        display: flex;
+        align-items: center;
+        /* margin-left: 200%; */
+    }
+
+    .Navbar .MobileNavigation .Hamburger {
+        position: absolute;
+        right: 5%;
+        cursor: pointer;
+    }
+
+    .Navbar nav ul {
+        display: flex;
+        position: absolute;
+        right: 0;
+        width: 100%;
+    }
+}
+
