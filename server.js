@@ -50,7 +50,7 @@ const contactEmail = nodemailer.createTransport({
     const mail = {
       from: name,
 	  // to: "aamanzhol@manex.com",
-      to: ["cyun@manex.com", "hyun@manex.com", "jbarlow@manex.com", "yaliakbar@manex.com"],
+      to: ["cyun@manex.com", "hyun@manex.com", "jbarlow@manex.com", "sales@manex.com"],
       subject: company,
       html: `<p>Name: ${name}</p>
              <p>Title: ${title}</p>

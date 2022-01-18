@@ -1,0 +1,12 @@
+.module-list {
+  position: absolute;
+  right: -60%;
+  top: 80%;
+  background-color: #ffc09c;
+  height: 100vh;
+  width: 60%;
+  transition: all 0.5s;
+}
+.module-list.open {
+  right: 0;
+}

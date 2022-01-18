@@ -4,7 +4,7 @@ export default async function postMessage(data) {
 
     return await axios({
         method: "POST",
-        url: "https://www.manexerp.com/api/contact",
+        url: "https://www.manex.com/api/contact",
         data: data
     })
     .then((response) => {
